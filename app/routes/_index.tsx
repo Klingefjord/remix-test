@@ -1,7 +1,3 @@
-import type { V2_MetaFunction } from "@vercel/remix";
-
-export const meta: V2_MetaFunction = () => [{ title: "New Remix App" }];
-
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
@@ -32,5 +28,5 @@ export default function Index() {
         </li>
       </ul>
     </div>
-  );
+  )
 }
